@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_splash_one_fragment">
+
+    <fragment
+        android:id="@+id/navigation_main_fragment"
+        android:name="com.example.engineeringenglish.ui.catalog.CatalogFragment"
+        android:label=""
+        tools:layout="@layout/fragment_catalog"/>
+
+    <fragment
+        android:id="@+id/navigation_splash_one_fragment"
+        android:name="com.example.engineeringenglish.ui.Splash.SplashOneFragment"
+        android:label=""
+        tools:layout="@layout/fragment_splash_one" />
+
+    <fragment
+        android:id="@+id/navigation_manual_fragment"
+        android:name="com.example.engineeringenglish.ui.instruction.InstructionManualFragment"
+        android:label="Начальная информация"
+        tools:layout="@layout/fragment_instruction_manual" />
+
+    <fragment
+        android:id="@+id/introduction_fragment"
+        android:name="com.example.engineeringenglish.IntroductionFragment"
+        android:label="fragment_introduction"
+        tools:layout="@layout/fragment_introduction" />
+</navigation>

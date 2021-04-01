@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1EFA9C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#3700B3</color>
+    <color name="colorOutline">#1EFA9C</color>
+    <color name="colorIcon">#FABC1E</color>
+    <color name="colorText">#1EFA9C</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000</color>
+
+    <array name="dot_colors">
+        <item>#FABC1E</item>
+<!--        <item>#1EFA9C</item>-->
+    </array>
+</resources>
