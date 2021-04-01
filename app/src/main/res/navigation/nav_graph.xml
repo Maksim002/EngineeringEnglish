@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_main_fragment"
         android:name="com.example.engineeringenglish.ui.catalog.CatalogFragment"
-        android:label=""
+        android:label="Латалог - Catalog"
         tools:layout="@layout/fragment_catalog"/>
 
     <fragment
