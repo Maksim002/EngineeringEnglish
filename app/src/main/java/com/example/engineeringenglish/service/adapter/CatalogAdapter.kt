@@ -6,6 +6,7 @@ import com.example.engineeringenglish.R
 import com.example.engineeringenglish.service.model.CatalogModel
 import com.timelysoft.tsjdomcom.common.GenericRecyclerAdapter
 import com.timelysoft.tsjdomcom.common.ViewHolder
+import kotlinx.android.synthetic.main.item_catalog.view.*
 
 class CatalogAdapter(item :  ArrayList<CatalogModel> = arrayListOf()): GenericRecyclerAdapter<CatalogModel>(item){
 
@@ -14,6 +15,6 @@ class CatalogAdapter(item :  ArrayList<CatalogModel> = arrayListOf()): GenericRe
     }
 
     override fun bind(item: CatalogModel, holder: ViewHolder) {
-
+        holder.itemView.catalog_image.setImageDrawable(item.image)
     }
 }

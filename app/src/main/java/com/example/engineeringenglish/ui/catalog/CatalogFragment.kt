@@ -1,5 +1,6 @@
 package com.example.engineeringenglish.ui.catalog
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -31,17 +32,12 @@ class CatalogFragment : Fragment(){
         initRecycler()
     }
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     private fun initRecycler() {
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
-        list.add(CatalogModel(0, ""))
+        list.add(CatalogModel(resources.getDrawable(R.drawable.ic_chemistry), ""))
+        list.add(CatalogModel(resources.getDrawable(R.drawable.ic_justice), ""))
+        list.add(CatalogModel(resources.getDrawable(R.drawable.ic_knowledge), ""))
+
 
         val myAdapter = CatalogAdapter()
         myAdapter.update(list)
