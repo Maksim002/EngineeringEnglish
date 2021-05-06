@@ -2,6 +2,7 @@ package com.example.engineeringenglish.ui.Splash
 
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,6 +15,7 @@ import kotlinx.android.synthetic.main.fragment_splash_one.*
 
 
 class SplashOneFragment : Fragment() {
+    val handler = Handler()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
@@ -26,9 +28,8 @@ class SplashOneFragment : Fragment() {
     }
 
     private fun initAnim() {
-        text_dot_loader.postDelayed(Runnable {
-            text_dot_loader.setNumberOfDots(10)
-            findNavController().navigate(R.id.navigation_manual_fragment) }, 2000)
+        handler.postDelayed(Runnable { // Do something after 5s = 500ms
+            findNavController().navigate(R.id.navigation_manual_fragment) }, 1000)
     }
 
     override fun onStart() {

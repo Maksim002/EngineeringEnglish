@@ -31,7 +31,7 @@ class InstructionManualFragment : Fragment() {
 
     private fun initClick() {
         floatingActionButton.setOnClickListener {
-            findNavController().navigate(R.id.introduction_fragment)
+            findNavController().navigate(R.id.navigation_main_fragment)
         }
     }
 

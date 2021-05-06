@@ -24,8 +24,8 @@
         tools:layout="@layout/fragment_instruction_manual" />
 
     <fragment
-        android:id="@+id/introduction_fragment"
-        android:name="com.example.engineeringenglish.IntroductionFragment"
-        android:label="fragment_introduction"
-        tools:layout="@layout/fragment_introduction" />
+        android:id="@+id/navigation_chemistry_fragment"
+        android:name="com.example.engineeringenglish.ChemistryFragment"
+        android:label="Химия - chemistry"
+        tools:layout="@layout/fragment_chemistry" />
 </navigation>

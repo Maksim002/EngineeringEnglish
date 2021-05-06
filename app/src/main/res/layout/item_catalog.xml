@@ -12,6 +12,7 @@
         app:cardCornerRadius="16dp">
 
     <LinearLayout
+        android:id="@+id/catalog_layout"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:background="@color/colorOutline"

@@ -5,21 +5,20 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toolbar
-import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.engineeringenglish.R
-import com.example.engineeringenglish.service.adapter.AutoFitGridLayoutManager
-import com.example.engineeringenglish.service.adapter.CatalogAdapter
+import com.example.engineeringenglish.adapter.AutoFitGridLayoutManager
+import com.example.engineeringenglish.adapter.CatalogAdapter
+import com.example.engineeringenglish.adapter.CatalogListener
 import com.example.engineeringenglish.service.model.CatalogModel
-import com.example.engineeringenglish.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_catalog.*
 import java.util.*
 
 
-class CatalogFragment : Fragment(){
+class CatalogFragment : Fragment(), CatalogListener{
     var list : ArrayList<CatalogModel> = arrayListOf()
 
     override fun onCreateView(
@@ -48,7 +47,7 @@ class CatalogFragment : Fragment(){
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_six), ""))
 
 
-        val myAdapter = CatalogAdapter()
+        val myAdapter = CatalogAdapter(this)
         myAdapter.update(list)
 
         catalog_fragment.adapter = myAdapter
@@ -56,6 +55,12 @@ class CatalogFragment : Fragment(){
         val layoutManager = AutoFitGridLayoutManager(requireContext(), 500)
         catalog_fragment.setLayoutManager(layoutManager);
 
+    }
+
+    override fun catalogClockListener(position: Int) {
+        if (position == 0){
+            findNavController().navigate(R.id.navigation_chemistry_fragment)
+        }
     }
 
     override fun onStart() {
