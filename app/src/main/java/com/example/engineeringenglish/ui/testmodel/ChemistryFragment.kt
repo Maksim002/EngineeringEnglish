@@ -76,18 +76,22 @@ class ChemistryFragment : Fragment(), ChemistryListener {
                             }
                         }
                         mapDate.put(dataKey, list)
-                        if (itemPosition[0] == dataKey) {
-                            if (list.getValue("question_id").question != null) {
-                                text_chemistry.text = list.getValue("question_id").question
-                                transcription_chemistry.text = list.getValue("question_id").transcription
-                            }
-                            list.forEach {
-                                if (it.key != "question_id") {
-                                    item.add(it.value)
+                        try {
+                            if (itemPosition[0] == dataKey) {
+                                if (list.getValue("question_id").question != null) {
+                                    text_chemistry.text = list.getValue("question_id").question
+                                    transcription_chemistry.text = list.getValue("question_id").transcription
                                 }
-                                myAdapter.update(item, this@ChemistryFragment, item.size)
-                                chemistry_recycler.adapter = myAdapter
+                                list.forEach {
+                                    if (it.key != "question_id") {
+                                        item.add(it.value)
+                                    }
+                                    myAdapter.update(item, this@ChemistryFragment, item.size)
+                                    chemistry_recycler.adapter = myAdapter
+                                }
                             }
+                        }catch (e: Exception){
+                            e.printStackTrace()
                         }
                     }
                     try {

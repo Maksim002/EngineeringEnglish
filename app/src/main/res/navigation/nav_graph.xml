@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/navigation_chemistry_fragment"
         android:name="com.example.engineeringenglish.ui.testmodel.ChemistryFragment"
-        android:label="Химия - chemistry"
+        android:label="Терминология - Terminology"
         tools:layout="@layout/fragment_chemistry" />
 
     <fragment

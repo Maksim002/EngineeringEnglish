@@ -79,7 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="72dp"
         android:layout_marginRight="72dp"
-        android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:text="Завершить тест"
         android:layout_gravity="center"
