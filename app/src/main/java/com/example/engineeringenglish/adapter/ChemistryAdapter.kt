@@ -4,15 +4,15 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.engineeringenglish.R
-import com.example.engineeringenglish.service.model.ChemistryModel
+import com.example.engineeringenglish.service.model.ChildModel
 
 
 class ChemistryAdapter : RecyclerView.Adapter<ViewHolder>() {
-    private var list: List<ChemistryModel> = arrayListOf()
+    private var list: List<ChildModel> = arrayListOf()
     private lateinit var listener: ChemistryListener
     private var questionPosition = 0
 
-    fun update(list: List<ChemistryModel>?, listener: ChemistryListener?, position: Int) {
+    fun update(list: List<ChildModel>?, listener: ChemistryListener?, position: Int) {
         this.list = list!!
         this.listener = listener!!
         questionPosition = position
@@ -25,12 +25,16 @@ class ChemistryAdapter : RecyclerView.Adapter<ViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(list[position], questionPosition)
-        val map = listener.getAnswers()
-        val isAnswerSelected = map.containsKey(questionPosition)
-        val isAnswered = map[questionPosition] != null && map[questionPosition] == list[position].id
-        val isCorrect = list[position].correct
-        holder.isAnswered(isAnswerSelected, isAnswered, isCorrect)
+        try {
+            holder.bind(list[position], questionPosition)
+            val map = listener.getAnswers()
+            val isAnswerSelected = map.containsKey(questionPosition)
+            val isAnswered = map[questionPosition] != null && map[questionPosition] == list[position].id
+            val isCorrect = list[position].correct
+            holder.isAnswered(isAnswerSelected, isAnswered, isCorrect!!)
+        }catch (e: Exception){
+            e.printStackTrace()
+        }
     }
 
     override fun getItemCount(): Int {
