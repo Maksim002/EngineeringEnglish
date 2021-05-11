@@ -14,7 +14,7 @@ class ViewHolder(itemView: View, private val listener: ChemistryListener) : Recy
 
         itemView.text_chemistry.setOnClickListener {
             if (AppPreferences.numberCharacters == 0){
-                listener.onClickAnswer(questionPosition, answer, itemView.text_chemistry)
+                listener.onClickAnswer(questionPosition, answer, itemView.text_chemistry, this)
                 AppPreferences.numberCharacters = 1
             }
         }

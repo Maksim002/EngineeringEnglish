@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.engineeringenglish.R
+import com.example.engineeringenglish.service.model.AppPreferences
 import com.example.engineeringenglish.service.model.ChildModel
 
 
@@ -27,11 +28,7 @@ class ChemistryAdapter : RecyclerView.Adapter<ViewHolder>() {
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         try {
             holder.bind(list[position], questionPosition)
-            val map = listener.getAnswers()
-            val isAnswerSelected = map.containsKey(questionPosition)
-            val isAnswered = map[questionPosition] != null && map[questionPosition] == list[position].id
-            val isCorrect = list[position].correct
-            holder.isAnswered(isAnswerSelected, isAnswered, isCorrect!!)
+            questionСolors(position, holder)
         }catch (e: Exception){
             e.printStackTrace()
         }
@@ -39,5 +36,21 @@ class ChemistryAdapter : RecyclerView.Adapter<ViewHolder>() {
 
     override fun getItemCount(): Int {
         return list.size
+    }
+
+    fun questionСolors(position: Int, holder: ViewHolder){
+        try {
+            val map = listener.getAnswers()
+            val isAnswerSelected = map.containsKey(questionPosition)
+            val isAnswered = map[questionPosition] != null && map[questionPosition] == list[position].id
+            val isCorrect = list[position].correct
+            if (AppPreferences.isLogined == true){
+                holder.isAnswered(false, false, false)
+            }else{
+                holder.isAnswered(isAnswerSelected, isAnswered, isCorrect!!)
+            }
+        }catch (e: Exception){
+            e.printStackTrace()
+        }
     }
 }

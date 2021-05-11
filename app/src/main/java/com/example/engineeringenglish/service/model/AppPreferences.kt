@@ -24,4 +24,10 @@ object AppPreferences {
         set(value) = preferences.edit {
             it.putInt("numberCharacters", value!!)
         }
+
+    var isLogined: Boolean
+        get() = preferences.getBoolean("isLogined", false)
+        set(value) = preferences.edit {
+            it.putBoolean("isLogined", value)
+        }
 }

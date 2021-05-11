@@ -10,17 +10,23 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.example.engineeringenglish.R
 import com.example.engineeringenglish.service.model.AppPreferences
+import com.timelysoft.tsjdomcom.utils.LoadingAlert
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var toolbar: Toolbar
+
+    companion object {
+        @SuppressLint("StaticFieldLeak")
+        lateinit var alert: LoadingAlert
+    }
 
     @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         AppPreferences.init(this)
-
+        alert = LoadingAlert(this)
         toolbar = findViewById(R.id.toolbar)
         toolbar.setTitleTextColor(R.color.colorBlack)
         setSupportActionBar(toolbar)

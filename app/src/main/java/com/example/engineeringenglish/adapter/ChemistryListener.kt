@@ -7,5 +7,5 @@ import java.util.*
 interface ChemistryListener {
     fun getAnswers(): HashMap<Int, Int> = hashMapOf()
 
-    fun onClickAnswer(position: Int, answer: ChildModel?, id: TextView)
+    fun onClickAnswer(position: Int, answer: ChildModel?, id: TextView, holder: ViewHolder)
 }

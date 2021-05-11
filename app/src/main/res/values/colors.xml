@@ -7,7 +7,7 @@
     <color name="colorIcon">#FABC1E</color>
     <color name="colorText">#1EFA9C</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorBlack">#000</color>
+    <color name="colorBlack">#000000</color>
     <color name="colorRed">#FF0000</color>
 
     <array name="dot_colors">

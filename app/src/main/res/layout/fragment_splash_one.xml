@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_height="match_parent"
-    tools:context=".ui.Splash.SplashOneFragment">
+    tools:context=".ui.splash.SplashOneFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

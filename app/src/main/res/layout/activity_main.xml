@@ -27,6 +27,7 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         app:theme="@style/ToolbarTheme"
+        app:contentInsetStartWithNavigation="0dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:titleTextColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"

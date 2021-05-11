@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_splash_one_fragment"
-        android:name="com.example.engineeringenglish.ui.Splash.SplashOneFragment"
+        android:name="com.example.engineeringenglish.ui.splash.SplashOneFragment"
         android:label=""
         tools:layout="@layout/fragment_splash_one" />
 
@@ -25,7 +25,13 @@
 
     <fragment
         android:id="@+id/navigation_chemistry_fragment"
-        android:name="com.example.engineeringenglish.ChemistryFragment"
+        android:name="com.example.engineeringenglish.ui.testmodel.ChemistryFragment"
         android:label="Химия - chemistry"
         tools:layout="@layout/fragment_chemistry" />
+
+    <fragment
+        android:id="@+id/navigation_result_fragment"
+        android:name="com.example.engineeringenglish.ui.testmodel.ResultFragment"
+        android:label="Результаты теста"
+        tools:layout="@layout/fragment_result" />
 </navigation>
