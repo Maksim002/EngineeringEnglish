@@ -4,9 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:layout_margin="16dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.testmodel.ResultFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
     <TextView
         android:layout_width="match_parent"
@@ -60,6 +69,7 @@
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
         android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
     <Button
@@ -69,7 +79,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="72dp"
         android:layout_marginRight="72dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:text="Завершить тест"
         android:layout_gravity="center"
         android:textColor="@color/colorBlack"
@@ -78,4 +89,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </LinearLayout>

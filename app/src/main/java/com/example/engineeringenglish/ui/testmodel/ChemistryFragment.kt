@@ -54,7 +54,7 @@ class ChemistryFragment : Fragment(), ChemistryListener {
     private fun firebaseDate(id: TextView? = null) {
         myAdapter = ChemistryAdapter()
         //Подключаемся к базе firebase
-        if (counter != 16){
+        if (counter != 17){
             if (firstEnters == false){
                 MainActivity.alert.show()
             }
@@ -125,7 +125,7 @@ class ChemistryFragment : Fragment(), ChemistryListener {
         }else{
             wrongInt++
         }
-        if (counter == 15){
+        if (counter == 16){
             finalResponseInt.add(ResponseModelInt(correctInt, wrongInt))
         }
 
