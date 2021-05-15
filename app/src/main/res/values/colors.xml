@@ -9,6 +9,9 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
     <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#047848</color>
+    <color name="colorDarkOrange">#936A03</color>
+
 
     <array name="dot_colors">
         <item>#FABC1E</item>

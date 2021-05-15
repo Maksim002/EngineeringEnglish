@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="16dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".ui.testmodel.ResultFragment">
 
     <androidx.core.widget.NestedScrollView
@@ -14,80 +14,109 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/colorBlack"
-        android:text="Ваш результат"
-        android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ваш результат"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/result_correct_int"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="70dp"
-            android:textColor="@color/colorBlack"
-            android:gravity="right"
-            android:text="5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDarkOrange"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_weight="1"
+                    android:text="Неправильные" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.7"
-            android:textSize="70dp"
-            android:textColor="@color/colorBlack"
-            android:gravity="center"
-            android:text="/"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Правильные"/>
 
-        <TextView
-            android:id="@+id/result_wrong_int"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="70dp"
-            android:textColor="@color/colorBlack"
-            android:gravity="left"
-            android:text="10"/>
-    </LinearLayout>
+            </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_test"
-        android:layout_width="match_parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:nestedScrollingEnabled="true"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/loan_active_status"
-        style="@style/RoundedOrangeBackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="72dp"
-        android:layout_marginRight="72dp"
-        android:layout_marginBottom="5dp"
-        android:text="Завершить тест"
-        android:layout_gravity="center"
-        android:textColor="@color/colorBlack"
-        android:textStyle="bold"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+                <com.dinuscxj.progressbar.CircleProgressBar
+                    android:id="@+id/cpb_circlebar"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:progress_end_color="#ABF200"
+                    app:progress_start_color="#FFBB00"
+                    app:progress_stroke_cap="round"
+                    app:progress_stroke_width="20dp "
+                    app:progress_text_size="50sp"
+                    app:style="solid_line" />
+
+                <com.dinuscxj.progressbar.CircleProgressBar
+                    android:id="@+id/cpb_circlebar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:progress_end_color="#ABF200"
+                    app:progress_start_color="#FFBB00"
+                    app:progress_stroke_cap="round"
+                    app:progress_stroke_width="20dp "
+                    app:progress_text_size="50sp"
+                    app:style="solid_line" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:nestedScrollingEnabled="true"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <Button
+                android:id="@+id/loan_active_status"
+                style="@style/RoundedOrangeBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="72dp"
+                android:layout_marginRight="72dp"
+                android:layout_marginBottom="5dp"
+                android:text="Завершить тест"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

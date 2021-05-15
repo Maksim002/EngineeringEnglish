@@ -1,10 +1,12 @@
 package com.example.engineeringenglish.ui.catalog
 
 import android.annotation.SuppressLint
+import android.graphics.Typeface
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -13,6 +15,7 @@ import com.example.engineeringenglish.adapter.AutoFitGridLayoutManager
 import com.example.engineeringenglish.adapter.CatalogAdapter
 import com.example.engineeringenglish.adapter.CatalogListener
 import com.example.engineeringenglish.service.model.CatalogModel
+import com.rahman.dialog.Utilities.SmartDialogBuilder
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_catalog.*
 import java.util.*
@@ -20,9 +23,11 @@ import java.util.*
 
 class CatalogFragment : Fragment(), CatalogListener{
     var list : ArrayList<CatalogModel> = arrayListOf()
+    private lateinit var myAdapter: CatalogAdapter
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
@@ -37,6 +42,9 @@ class CatalogFragment : Fragment(), CatalogListener{
 
     @SuppressLint("UseCompatLoadingForDrawables")
     private fun initRecycler() {
+        if (list.size != 0)   {
+            list.clear()
+        }
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_chemistry), ""))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_justice), ""))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_knowledge), ""))
@@ -46,20 +54,52 @@ class CatalogFragment : Fragment(), CatalogListener{
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_repair), ""))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_six), ""))
 
-
-        val myAdapter = CatalogAdapter(this)
+        myAdapter = CatalogAdapter(this)
         myAdapter.update(list)
-
         catalog_fragment.adapter = myAdapter
 
         val layoutManager = AutoFitGridLayoutManager(requireContext(), 500)
         catalog_fragment.setLayoutManager(layoutManager);
-
     }
 
     override fun catalogClockListener(position: Int) {
+        alertDialog(position)
+    }
+
+    private fun alertDialog(position: Int){
+        SmartDialogBuilder(context)
+            .setTitle("Привет")
+            .setSubTitle("Мы подобрали для Вас термины, которые наиболее часто встречаются в работе инженера.")
+            .setCancalable(false)
+            .setTitleFont(Typeface.SERIF) //set title font
+            .setPositiveButton("Краткий курс") { smartDialog ->
+                Toast.makeText(context, "Ok button Click", Toast.LENGTH_SHORT).show()
+                smartDialog.dismiss()
+            }
+            .setNegativeButton("Тестирование"){ tttDialog ->
+                curseDetail(position)
+                tttDialog.dismiss()
+            }.build().show()
+    }
+
+    private fun curseDetail(position: Int){
+        val bundle = Bundle()
         if (position == 0){
-            findNavController().navigate(R.id.navigation_chemistry_fragment)
+            bundle.putString("test", "term_")
+            bundle.putString("test_title", "Терминология - Terminology")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 1){
+            bundle.putString("test", "PC_")
+            bundle.putString("test_title", "Компьютер - Computer")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 2){
+            bundle.putString("test", "meas_")
+            bundle.putString("test_title", "Измерения - Measurements")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 3){
+            bundle.putString("test", "it_")
+            bundle.putString("test_title", "Разработка - Development")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
         }
     }
 
