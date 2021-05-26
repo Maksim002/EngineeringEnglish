@@ -123,7 +123,11 @@ class ChemistryFragment : Fragment(), ChemistryListener {
                         } catch (e: Exception) {
                             e.printStackTrace()
                         }
-                        layout_chemistry.visibility = View.VISIBLE
+                       try {
+                           layout_chemistry.visibility = View.VISIBLE
+                       }catch (e: Exception){
+                           e.printStackTrace()
+                       }
                         MainActivity.alert.hide()
                     }
 

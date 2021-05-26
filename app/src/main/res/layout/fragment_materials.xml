@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.materials.MaterialsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Технология материалов"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/materials_crane"
+                android:layout_width="match_parent"
+                android:background="@drawable/circle_orange_background_bottom"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat1"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat2"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/materials_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat3"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat4"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat5"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="16dp"
+                android:text="@string/an_element"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_compound"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/chemical_composition"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/constituents"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/structural_engineering"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_chemical_reaction"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_mixture"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/an_alloy"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_coefficient"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/non_metals_carbon_silicon"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/metals_iron_copper"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/ferrous_metals"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/non_ferrous_metals"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_precious_metal"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/raw_materials"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/powder_fine_particles"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_pellet"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_fibre"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/carbon_steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/alloy_steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/stainless_steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/tool_steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/high_speed_steel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_composite_material"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_reinforcing_material"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_matrix"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/carbon_fibre"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/fibreglass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/molten"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_disintegrate"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_flow"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_cover"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_melt"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_rust"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_mineral"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/ceramics"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/ore"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/an_abrasive_material"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/clay"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_kiln"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/qlass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/float_glass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/safety_glass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/toughened_glass_tempered_glass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/laminated_glass"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/organic"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/inorganic"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_anneal"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/concrete"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/cement"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/sand"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/qravel"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/fine_aggregate"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/coarse_aggregate"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/concrete_mix_design"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/batching"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/an_additive"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_retarder"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/reinforced_concrete"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/reinforcing_bars"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/formwork_shuttering"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_cast_concrete"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Свойства материалов"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/mat6"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/material_properties"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/thermal_properties"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_thermal_insulator"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_coefficient_of_thermal_expansion"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_coefficient_of_linear_expansion"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/tensile_strength"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/compressive_strength"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/deformation"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/elongation"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/extension"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/hardening"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/corrosion"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/resistance"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/elasticity"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/ductility"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/plasticity"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/hardness"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/scratch_hardness"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/indentation_hardness"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/durability"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/fatigue"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/fracture_toughness"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/thermal_conductivity"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/stiff"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/brittle"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/malleable"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/ductile"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_conduct"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_fracture"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_resist_wear"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Расположение"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/locating"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_centreline"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/an_offset"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/centre_to_centre"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_reference_point"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_grid"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_gridline"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/a_diagonal"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/perpendicular_to"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_set_out"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_locate"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_run_parallel_with"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/to_intersect_at"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

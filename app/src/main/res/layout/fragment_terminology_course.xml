@@ -79,15 +79,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/engineering"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/in3"
@@ -251,8 +242,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/minerals_surveyor"
+                android:layout_marginTop="16dp"
+                android:text="@string/engineering"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>

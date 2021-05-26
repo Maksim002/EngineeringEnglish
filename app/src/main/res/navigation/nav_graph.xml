@@ -43,7 +43,25 @@
 
     <fragment
         android:id="@+id/measurementFragment"
-        android:name="com.example.engineeringenglish.MeasurementFragment"
+        android:name="com.example.engineeringenglish.ui.measurement.MeasurementFragment"
         android:label="Measurement"
         tools:layout="@layout/fragment_measurement" />
+
+    <fragment
+        android:id="@+id/computerEnglishFragment"
+        android:name="com.example.engineeringenglish.ui.computer.ComputerEnglishFragment"
+        android:label="Computer English"
+        tools:layout="@layout/fragment_computer_english" />
+
+    <fragment
+        android:id="@+id/englishDevelopersFragment"
+        android:name="com.example.engineeringenglish.ui.developers.EnglishDevelopersFragment"
+        android:label="English for Developers"
+        tools:layout="@layout/fragment_english_developers" />
+
+    <fragment
+        android:id="@+id/materialsFragment"
+        android:name="com.example.engineeringenglish.ui.materials.MaterialsFragment"
+        android:label="Materials technology"
+        tools:layout="@layout/fragment_materials" />
 </navigation>

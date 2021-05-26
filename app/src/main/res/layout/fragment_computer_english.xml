@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.measurement.MeasurementFragment">
+    tools:context=".ui.computer.ComputerEnglishFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -21,11 +21,11 @@
                 android:textColor="@color/colorBlack"
                 android:gravity="center"
                 android:textStyle="bold"
-                android:text="Измерения"
+                android:text="Компьютерный Английский"
                 android:textSize="18sp"/>
 
             <ImageView
-                android:id="@+id/measurement_crane"
+                android:id="@+id/computer_crane"
                 android:layout_width="match_parent"
                 android:background="@drawable/circle_orange_background_bottom"
                 android:layout_marginTop="16dp"
@@ -38,23 +38,12 @@
                 android:layout_gravity="center_vertical|end"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="10dp"
-                android:text="@string/m1"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorBlack"
-                android:layout_gravity="center_vertical|end"
-                android:justificationMode="inter_word"
-                android:layout_marginTop="10dp"
-                android:text="@string/m2"
+                android:text="@string/emg1"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
             <ImageView
-                android:id="@+id/measurement_en"
+                android:id="@+id/computer_crane_en"
                 android:layout_width="match_parent"
                 android:layout_marginTop="16dp"
                 android:layout_height="wrap_content" />
@@ -66,7 +55,52 @@
                 android:layout_gravity="center_vertical|end"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="10dp"
-                android:text="@string/m3"
+                android:text="@string/emg2"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/eng3"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/computer_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/eng4"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/computer_eng"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/english_is_everywhere"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -75,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="16dp"
-                android:text="@string/calculations"
+                android:text="@string/class1"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -84,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/dimensions_dims"
+                android:text="@string/variable"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -92,8 +126,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/linear_dimensions"
+                android:layout_marginTop="10dp"
+                android:text="@string/example"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -102,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_direction"
+                android:text="@string/folder"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -110,8 +144,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_tape_measure"
+                android:layout_marginTop="10dp"
+                android:text="@string/property"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -120,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_theodolite"
+                android:text="@string/versatile"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -128,8 +162,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/an_angle"
+                android:layout_marginTop="10dp"
+                android:text="@string/maintenance"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -138,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_degree"
+                android:text="@string/explanation"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -146,8 +180,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_grade"
+                android:layout_marginTop="10dp"
+                android:text="@string/experience"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -156,7 +190,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/diameter"
+                android:text="@string/separate"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -164,8 +198,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_radius_plural_radii"
+                android:layout_marginTop="10dp"
+                android:text="@string/feature"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -174,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/circumference"
+                android:text="@string/perform"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -182,8 +216,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_constant"
+                android:layout_marginTop="10dp"
+                android:text="@string/especially"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -192,7 +226,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_surface"
+                android:text="@string/previous"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -200,8 +234,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_face"
+                android:layout_marginTop="10dp"
+                android:text="@string/thoroughly"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -210,7 +244,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_circle"
+                android:text="@string/scheme"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -218,8 +252,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/a_concentric_circle"
+                android:layout_marginTop="10dp"
+                android:text="@string/field"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -228,7 +262,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_curved_line"
+                android:text="@string/necessary"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -236,8 +270,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/an_extremity"
+                android:layout_marginTop="10dp"
+                android:text="@string/string"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -246,7 +280,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_span"
+                android:text="@string/definition"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -254,8 +288,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/distance"
+                android:layout_marginTop="10dp"
+                android:text="@string/implement"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -264,7 +298,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/ength"
+                android:text="@string/assignment"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -272,179 +306,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/height"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/width"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/thickness"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/area"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/cross_sectional_area"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/surface_area"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/mass"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/weight"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/volume"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/density"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/external"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/internal"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/horizontal"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/vertical"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/flat"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/smooth"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/inclined"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/to_measure"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextGreen"
-                android:layout_marginTop="16dp"
-                android:text="@string/to_increase"
-                android:textSize="14sp"
-                tools:ignore="UnusedAttribute" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="10dp"
-                android:text="@string/to_decrease"
+                android:text="@string/defence"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>

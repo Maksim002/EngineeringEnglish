@@ -70,7 +70,7 @@ class CatalogFragment : Fragment(), CatalogListener{
         SmartDialogBuilder(context)
             .setTitle("Привет")
             .setSubTitle("Мы подобрали для Вас термины, которые наиболее часто встречаются в работе инженера.")
-            .setCancalable(false)
+            .setCancalable(true)
             .setTitleFont(Typeface.SERIF) //set title font
             .setPositiveButton("Краткий курс") { smartDialog ->
                 curseDialog(position)
@@ -85,6 +85,14 @@ class CatalogFragment : Fragment(), CatalogListener{
     private fun curseDialog(position: Int){
         if (position == 0){
             findNavController().navigate(R.id.terminologyCourseFragment)
+        }else if (position == 1){
+            findNavController().navigate(R.id.computerEnglishFragment)
+        }else if (position == 2){
+            findNavController().navigate(R.id.measurementFragment)
+        }else if (position == 3){
+            findNavController().navigate(R.id.englishDevelopersFragment)
+        }else if (position == 4){
+            findNavController().navigate(R.id.materialsFragment)
         }
     }
 
@@ -105,6 +113,10 @@ class CatalogFragment : Fragment(), CatalogListener{
         }else if (position == 3){
             bundle.putString("test", "it_")
             bundle.putString("test_title", "Разработка - Development")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 4){
+            bundle.putString("test", "mat_")
+            bundle.putString("test_title", "Материалы - Materials")
             findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
         }
     }
