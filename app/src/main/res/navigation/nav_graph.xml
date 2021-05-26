@@ -34,4 +34,16 @@
         android:name="com.example.engineeringenglish.ui.testmodel.ResultFragment"
         android:label="Результаты теста"
         tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/terminologyCourseFragment"
+        android:name="com.example.engineeringenglish.ui.terminology.TerminologyCourseFragment"
+        android:label="Terminology"
+        tools:layout="@layout/fragment_terminology_course" />
+
+    <fragment
+        android:id="@+id/measurementFragment"
+        android:name="com.example.engineeringenglish.MeasurementFragment"
+        android:label="Measurement"
+        tools:layout="@layout/fragment_measurement" />
 </navigation>

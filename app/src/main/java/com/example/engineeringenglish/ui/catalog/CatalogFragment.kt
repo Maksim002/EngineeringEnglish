@@ -73,13 +73,19 @@ class CatalogFragment : Fragment(), CatalogListener{
             .setCancalable(false)
             .setTitleFont(Typeface.SERIF) //set title font
             .setPositiveButton("Краткий курс") { smartDialog ->
-                Toast.makeText(context, "Ok button Click", Toast.LENGTH_SHORT).show()
+                curseDialog(position)
                 smartDialog.dismiss()
             }
             .setNegativeButton("Тестирование"){ tttDialog ->
                 curseDetail(position)
                 tttDialog.dismiss()
             }.build().show()
+    }
+
+    private fun curseDialog(position: Int){
+        if (position == 0){
+            findNavController().navigate(R.id.terminologyCourseFragment)
+        }
     }
 
     private fun curseDetail(position: Int){

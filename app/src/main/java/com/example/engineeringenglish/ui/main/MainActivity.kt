@@ -1,6 +1,7 @@
 package com.example.engineeringenglish.ui.main
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -28,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         AppPreferences.init(this)
         alert = LoadingAlert(this)
         toolbar = findViewById(R.id.toolbar)
-        toolbar.setTitleTextColor(R.color.colorBlack)
         setSupportActionBar(toolbar)
 
        if (savedInstanceState == null){

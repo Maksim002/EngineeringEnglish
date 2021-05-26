@@ -36,7 +36,7 @@ class SplashOneFragment : Fragment() {
         (activity as  AppCompatActivity).supportActionBar?.hide()
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            (activity as AppCompatActivity).getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+//            (activity as AppCompatActivity).getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
             (activity as AppCompatActivity).getWindow().setStatusBarColor(getResources().getColor(R.color.colorWhite));
         }
     }

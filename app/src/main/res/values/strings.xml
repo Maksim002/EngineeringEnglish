@@ -7,4 +7,26 @@
     <string name="text_1">1) Благодаря постоянным техническим разработкам изучение технического английского языка очень популярно в течение последних нескольких лет</string>
     <string name="text_2">3) Занимаясь изучением технического английского языка, обязательно обратите внимание на соответствующие словари, где можно найти всю необходимую лексику и грамматику. Также не стоит забывать про различные уловки в переводе. К простым примерам можно отнести фразу в настоящем времени «замерить ток в цепи». Данное предложение можно перевести так: «measure the current in the circuit». Если действовать аналогично, то по логике используя фразу «measure the voltage in the circuit», мы можем попросить замерить напряжение в цепи. Но это будет ошибочный вариант, поскольку правильным является перевод «measure the voltage across the circuit».</string>
     <string name="text_3">2) Понимание английского текста напрямую связано с тем, как много слов удалось изучить. Просто читая тексты на английском языке, вы можете запоминать слова в пассивном режиме, но технический английский можно выучить только с определенными усилиями.</string>
+    <string name="_50_70"> Больше половины человеческих потребностей удовлетворяются за счет минерального сырья и нефтегазовой промышленности. Добыча полезных ископаемых осуществляется на наземных (копры, надшахтные здания, склады) и подземных (шахты) сооружениях. Шахты – это механизированное предприятие, осуществляющее добычу и транспортировку полезных ископаемых, проведение горных выработок, водоотлив и вентиляцию. Срок службы такого механизма – 50-70 лет. Однако без соответствующего ремонта, наладки отдельных механизмов срок службы резко сокращается. Профессия горного инженера существует для ремонта, наладки и должной эксплуатации шахт.</string>
+    <string name="en1">Горный инженер – это специалист с высшим образованием, задачей которого является планирование, организация и управление горными работами. Он проектирует и создает новые рудники, карьеры, подземные сооружения.</string>
+    <string name="in2">engineer [ɛndʒɪˈnɪə] происходит от латинского ingeniare − творить, производить / ingenium − ум, умение, ловкость. Этот же корень сохранился в современном ingenuity − изобретательность. Затем перешло в итальянское ingegnere и во французское ingénieur, а после было заимствовано в Middle English.</string>
+    <string name="in3">Mechanical engineering - инженерная механика, машиностроение, проектирование механических систем</string>
+    <string name="electrical_engineering">Electrical engineering - электромеханика, техническое проектирование электросхем</string>
+    <string name="question_civil_engineering">Question civil engineering - проектирование и строительство гражданских объектов</string>
+    <string name="structural_engineering">Structural engineering - проектирование промышленных сооружений / строительное проектирование</string>
+    <string name="biomedical_engineering">Biomedical engineering - биомедицинская инженерия</string>
+    <string name="chemical_engineering">Chemical engineering - химическая инженерия</string>
+    <string name="software_engineering">Software engineering - программная инженерия</string>
+    <string name="systems_engineering">Systems engineering - системная инженерия</string>
+    <string name="an_engineering_technician">An engineering technician - инженерно-технический работник</string>
+    <string name="an_engineer">An engineer - инженер, конструктор</string>
+    <string name="ivil_engineering_practice">Сivil (engineering) practice - методы возведения инженерных сооружений</string>
+    <string name="occupation">Occupation - профессия</string>
+    <string name="petroleum_engineering">Petroleum engineering - технология нефтегазодобычи></string>
+    <string name="water_engineering">Water Engineering - гидротехническое строительство</string>
+    <string name="robotic_engineering">Robotic Engineering - робототехника</string>
+    <string name="coalindustry">Coalindustry - угольная промышленность</string>
+    <string name="minerals_surveyor">Minerals surveyor - маркшейдер</string>
+    <string name="a_measurement">Measurement - измерение, вычисление, система мер</string>
+    <string name="engineering">Engineering - инженерное дело</string>
 </resources>
