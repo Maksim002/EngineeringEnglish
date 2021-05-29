@@ -93,6 +93,12 @@ class CatalogFragment : Fragment(), CatalogListener{
             findNavController().navigate(R.id.englishDevelopersFragment)
         }else if (position == 4){
             findNavController().navigate(R.id.materialsFragment)
+        }else if (position == 5){
+//            findNavController().navigate(R.id.miningFragment)
+        }else if (position == 6){
+            findNavController().navigate(R.id.chemicalElementsFragment)
+        }else if (position == 7){
+            findNavController().navigate(R.id.mountainSoilsFragment)
         }
     }
 
@@ -117,6 +123,14 @@ class CatalogFragment : Fragment(), CatalogListener{
         }else if (position == 4){
             bundle.putString("test", "mat_")
             bundle.putString("test_title", "Материалы - Materials")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 6){
+            bundle.putString("test", "ch_")
+            bundle.putString("test_title", "Элементы - Elements")
+            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        }else if (position == 7){
+            bundle.putString("test", "til_")
+            bundle.putString("test_title", "Почва - Soil")
             findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
         }
     }

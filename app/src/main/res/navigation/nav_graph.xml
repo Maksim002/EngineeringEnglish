@@ -64,4 +64,22 @@
         android:name="com.example.engineeringenglish.ui.materials.MaterialsFragment"
         android:label="Materials technology"
         tools:layout="@layout/fragment_materials" />
+
+    <fragment
+        android:id="@+id/miningFragment"
+        android:name="com.example.engineeringenglish.MiningFragment"
+        android:label="Mining"
+        tools:layout="@layout/fragment_mining" />
+
+    <fragment
+        android:id="@+id/chemicalElementsFragment"
+        android:name="com.example.engineeringenglish.ui.elements.ChemicalElementsFragment"
+        android:label="Chemical elements"
+        tools:layout="@layout/fragment_chemical_elements" />
+
+    <fragment
+        android:id="@+id/mountainSoilsFragment"
+        android:name="com.example.engineeringenglish.ui.soils.MountainSoilsFragment"
+        android:label="Mountain soils"
+        tools:layout="@layout/fragment_mountain_soils" />
 </navigation>

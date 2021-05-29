@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Горные почвы"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/soils_crane"
+                android:layout_width="match_parent"
+                android:background="@drawable/circle_orange_background_bottom"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/_9_14_8"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/soils_crane_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:text="Вертикальная зональность"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils2"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils1"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/soils_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:text="Условия почвообразования"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils3"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils1"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/_0_5_100"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/_0_5_100"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:text="Особенности почвообразовательного процесса"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils7"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils9"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils10"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/soils11"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_1_broken"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_2_boulders"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_3_weeds"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_4_volcanic"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_6_sticky"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_7_shingle"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_8_gips"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_9_clay"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_11_loamy_mud"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_11_globigerina"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_12_boulders"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_13_pebbles"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_14_gravel"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_15_ground"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_16_sponge"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_17_diatom_mud"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_18_carcareous"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_19_mud"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_20_silty_sand"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_21_stones"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_22_quarts"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_23_shingle"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_24_corals"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_25_lava"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_26_glacial"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_27_manganese"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_28_chalk"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_29_fine"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_30_marl"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_31_soft"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_32_pumice"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_33_sand"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_34_sandy_mud"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_35_hard_ground"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_36_radiolaria"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_37_shells"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_38_light"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_39_rock"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_40_sehist"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_41_stiff"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_42_dark"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_43_tufa"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_44_oysters"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_45_scoria"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_46_grus"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

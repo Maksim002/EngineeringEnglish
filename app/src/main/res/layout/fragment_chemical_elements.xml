@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.elements.ChemicalElementsFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Химические элементы"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/elements_crane"
+                android:layout_width="match_parent"
+                android:background="@drawable/circle_orange_background_bottom"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/elm1"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/elements_crane_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/elem2"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/elements_en"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:text="@string/elem3"
+                android:textSize="14sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/elements_el"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/elements_elm"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_1_hydrogenium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_2_helium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_3_lithium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_4_beryllium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_5_borum"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_6_carboneum"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_7_nitrogenium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_8_oxygenium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_9_fluorum"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_10_natrium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_11_aluminium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_12_silicium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_13_phosphorus"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_14_sulfur"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_15_chlorum"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_16_argon"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_17_kalium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextGreen"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_18_calcium_calcium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorTextOrange"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/_19_scandium"
+                        android:textSize="12sp"
+                        tools:ignore="UnusedAttribute" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_19_titanium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_20_vanadium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_20_chromium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_21_manganum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_22_ferrum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_23_cobaltum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_24_niccolum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_25_cuprum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_26_zincum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_27_gallium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_28_germanium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_29_arsenicum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_30_selenium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_31_bromum"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_32_krypton"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextOrange"
+                android:layout_marginTop="10dp"
+                android:text="@string/_33_rubidium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextGreen"
+                android:layout_marginTop="10dp"
+                android:text="@string/_34_strontium"
+                android:textSize="12sp"
+                tools:ignore="UnusedAttribute" />
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
