@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MiningFragment">
+    tools:context=".ui.mining.MiningFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_gravity="center_vertical|end"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="10dp"
-                android:text="@string/_50_70"
+                android:text="@string/_6_2_5_15_25"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -55,7 +55,7 @@
                 android:layout_gravity="center_vertical|end"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="10dp"
-                android:text="@string/en1"
+                android:text="@string/mining1"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -72,7 +72,7 @@
                 android:layout_gravity="center_vertical|end"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="10dp"
-                android:text="@string/in2"
+                android:text="@string/mi2"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/in3"
+                android:text="@string/_1_auxiliary_materials"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/electrical_engineering"
+                android:text="@string/_2_bar_chart"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -99,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/question_civil_engineering"
+                android:text="@string/_3_bar_code"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/structural_engineering"
+                android:text="@string/pilot_plant"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/biomedical_engineering"
+                android:text="@string/_5_processing_method"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -126,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/chemical_engineering"
+                android:text="@string/_6_product_design"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -135,7 +135,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/software_engineering"
+                android:text="@string/_7_production_constraints"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -144,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/systems_engineering"
+                android:text="@string/_8_production_cycle"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -153,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/an_engineer"
+                android:text="@string/production_factors"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/an_engineering_technician"
+                android:text="@string/_10_production_management"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -171,7 +171,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/ivil_engineering_practice"
+                android:text="@string/_11_production_manager"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -180,7 +180,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/occupation"
+                android:text="@string/flow_production"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -189,7 +189,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/petroleum_engineering"
+                android:text="@string/_13_industrial_area"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -198,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/water_engineering"
+                android:text="@string/_14_inflammable"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -207,7 +207,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/robotic_engineering"
+                android:text="@string/_15_energy_costs"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -216,7 +216,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/coalindustry"
+                android:text="@string/_16_flowchart"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -225,7 +225,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
-                android:text="@string/minerals_surveyor"
+                android:text="@string/_17_innovative"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -234,7 +234,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
-                android:text="@string/a_measurement"
+                android:text="@string/_18_input"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
 
@@ -242,8 +242,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTextOrange"
-                android:layout_marginTop="16dp"
-                android:text="@string/engineering"
+                android:layout_marginTop="10dp"
+                android:text="@string/invest_in_equipment"
                 android:textSize="14sp"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>

@@ -110,7 +110,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="16dp"
                 android:text="@string/class1"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -119,7 +119,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/variable"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -128,7 +128,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/example"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -137,7 +137,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/folder"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -146,7 +146,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/property"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -155,7 +155,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/versatile"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -164,7 +164,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/maintenance"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -173,7 +173,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/explanation"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -182,7 +182,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/experience"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -191,7 +191,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/separate"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -200,7 +200,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/feature"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -209,7 +209,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/perform"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -218,7 +218,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/especially"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -227,7 +227,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/previous"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -236,7 +236,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/thoroughly"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -245,7 +245,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/scheme"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -254,7 +254,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/field"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -263,7 +263,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/necessary"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -272,7 +272,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/string"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -281,7 +281,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/definition"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -290,7 +290,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/implement"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -299,7 +299,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/assignment"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -308,7 +308,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/defence"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

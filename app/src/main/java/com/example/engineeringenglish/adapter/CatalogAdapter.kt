@@ -16,6 +16,7 @@ class CatalogAdapter(var listener: CatalogListener ,item :  ArrayList<CatalogMod
 
     override fun bind(item: CatalogModel, holder: ViewHolder) {
         holder.itemView.catalog_image.setImageDrawable(item.image)
+        holder.itemView.name_catalog.text = item.name
         holder.itemView.catalog_layout.setOnClickListener {
             listener.catalogClockListener(holder.adapterPosition)
         }

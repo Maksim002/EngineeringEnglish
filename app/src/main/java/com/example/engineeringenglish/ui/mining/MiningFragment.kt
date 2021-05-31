@@ -1,4 +1,4 @@
-package com.example.engineeringenglish
+package com.example.engineeringenglish.ui.mining
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -10,9 +10,10 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
+import com.example.engineeringenglish.R
 import com.example.engineeringenglish.service.model.ImageResult
 import com.example.engineeringenglish.ui.main.MainActivity
-import kotlinx.android.synthetic.main.fragment_terminology_course.*
+import kotlinx.android.synthetic.main.fragment_mining.*
 
 class MiningFragment : Fragment() {
     private var list: ArrayList<ImageResult> = arrayListOf()
@@ -25,9 +26,9 @@ class MiningFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        list.add(ImageResult("https://www.akchabar.kg/media/news/023295fe-696b-477c-98ff-944b8869ded4.jpg", terminology_crane))
-        list.add(ImageResult("https://mining-media.ru/images/2018/01_2018/004_0.jpg", terminology_crane_en))
-        list.add(ImageResult("https://mining-media.ru/images/2018/01_2018/022_1.jpg", terminology_en))
+        list.add(ImageResult("https://upload-ca0451ed212bdd32f8d9e1cd64bf8c77.hb.bizmrg.com/iblock/ffb/ffb3516b5ee77a881043681f4c0b64db/7cb7a61f20fb5d6e87b47229405759e8.jpg", mining_crane))
+        list.add(ImageResult("https://financial-news24.ru/wp-content/uploads/2019/08/cifr.jpg", mining_crane_en))
+        list.add(ImageResult("https://vopesni.ru/wp-content/uploads/rabota-gornyj-inzhener.jpg", mining_en))
 
         MainActivity.alert.show()
         if (list.size != 0){

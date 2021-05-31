@@ -67,8 +67,8 @@
 
     <fragment
         android:id="@+id/miningFragment"
-        android:name="com.example.engineeringenglish.MiningFragment"
-        android:label="Mining"
+        android:name="com.example.engineeringenglish.ui.mining.MiningFragment"
+        android:label="Mining industry"
         tools:layout="@layout/fragment_mining" />
 
     <fragment

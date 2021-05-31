@@ -82,7 +82,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/in3"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -91,7 +91,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/electrical_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -100,7 +100,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/question_civil_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -109,7 +109,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/structural_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -118,7 +118,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/biomedical_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -127,7 +127,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/chemical_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -136,7 +136,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/software_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -145,7 +145,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/systems_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -154,7 +154,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/an_engineer"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -163,7 +163,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/an_engineering_technician"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -172,7 +172,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/ivil_engineering_practice"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -181,7 +181,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/occupation"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -190,7 +190,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/petroleum_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -199,7 +199,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/water_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -208,7 +208,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/robotic_engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -217,7 +217,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/coalindustry"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -226,7 +226,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="10dp"
                 android:text="@string/minerals_surveyor"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -235,7 +235,7 @@
                 android:textColor="@color/colorTextGreen"
                 android:layout_marginTop="10dp"
                 android:text="@string/a_measurement"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
 
             <TextView
@@ -244,7 +244,7 @@
                 android:textColor="@color/colorTextOrange"
                 android:layout_marginTop="16dp"
                 android:text="@string/engineering"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
