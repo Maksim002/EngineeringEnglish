@@ -3,10 +3,10 @@ package com.example.engineeringenglish.ui.catalog
 import android.annotation.SuppressLint
 import android.graphics.Typeface
 import android.os.Bundle
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -22,8 +22,11 @@ import java.util.*
 
 
 class CatalogFragment : Fragment(), CatalogListener{
-    var list : ArrayList<CatalogModel> = arrayListOf()
+    private var list : ArrayList<CatalogModel> = arrayListOf()
     private lateinit var myAdapter: CatalogAdapter
+    private var doubleСlick = false
+    private val handler = Handler()
+    private  var clearPosition = -1
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -63,7 +66,13 @@ class CatalogFragment : Fragment(), CatalogListener{
     }
 
     override fun catalogClockListener(position: Int) {
-        alertDialog(position)
+        if (clearPosition != position){
+            clearPosition = position
+            alertDialog(position)
+        }
+        handler.postDelayed(Runnable { // Do something after 5s = 500ms
+            clearPosition = -1
+        }, 1500)
     }
 
     private fun alertDialog(position: Int){
@@ -104,38 +113,40 @@ class CatalogFragment : Fragment(), CatalogListener{
 
     private fun curseDetail(position: Int){
         val bundle = Bundle()
-        if (position == 3){
-            bundle.putString("test", "term_")
-            bundle.putString("test_title", "Терминология - Terminology")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 6){
-            bundle.putString("test", "PC_")
-            bundle.putString("test_title", "Компьютер - Computer")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 1){
-            bundle.putString("test", "meas_")
-            bundle.putString("test_title", "Измерения - Measurements")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 5){
-            bundle.putString("test", "it_")
-            bundle.putString("test_title", "Разработка - Development")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 2){
-            bundle.putString("test", "mat_")
-            bundle.putString("test_title", "Материалы - Materials")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 4) {
-            bundle.putString("test", "mi_")
-            bundle.putString("test_title", "Горное дело - Mining industry")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 0){
-            bundle.putString("test", "ch_")
-            bundle.putString("test_title", "Элементы - Elements")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
-        }else if (position == 7){
-            bundle.putString("test", "til_")
-            bundle.putString("test_title", "Почва - Soil")
-            findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+        if (!doubleСlick) {
+            if (position == 3) {
+                bundle.putString("test", "term_")
+                bundle.putString("test_title", "Терминология - Terminology")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 6) {
+                bundle.putString("test", "PC_")
+                bundle.putString("test_title", "Компьютер - Computer")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 1) {
+                bundle.putString("test", "meas_")
+                bundle.putString("test_title", "Измерения - Measurements")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 5) {
+                bundle.putString("test", "it_")
+                bundle.putString("test_title", "Разработка - Development")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 2) {
+                bundle.putString("test", "mat_")
+                bundle.putString("test_title", "Материалы - Materials")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 4) {
+                bundle.putString("test", "mi_")
+                bundle.putString("test_title", "Горное дело - Mining industry")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 0) {
+                bundle.putString("test", "ch_")
+                bundle.putString("test_title", "Элементы - Elements")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            } else if (position == 7) {
+                bundle.putString("test", "til_")
+                bundle.putString("test_title", "Почва - Soil")
+                findNavController().navigate(R.id.navigation_chemistry_fragment, bundle)
+            }
         }
     }
 

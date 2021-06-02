@@ -5,6 +5,7 @@ import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -86,6 +87,7 @@ class ChemistryFragment : Fragment(), ChemistryListener {
                 dataBase = FirebaseDatabase.getInstance().getReference(questionValue)
                 dataBase.addListenerForSingleValueEvent(object : ValueEventListener {
                     override fun onDataChange(snapshot: DataSnapshot) {
+                        requireActivity().window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
                         //Если база не является пустой
                         if (snapshot.exists()) {
                             dataKey = snapshot.key.toString()
@@ -123,11 +125,11 @@ class ChemistryFragment : Fragment(), ChemistryListener {
                         } catch (e: Exception) {
                             e.printStackTrace()
                         }
-                       try {
-                           layout_chemistry.visibility = View.VISIBLE
-                       }catch (e: Exception){
-                           e.printStackTrace()
-                       }
+                        try {
+                            layout_chemistry.visibility = View.VISIBLE
+                        } catch (e: Exception) {
+                            e.printStackTrace()
+                        }
                         MainActivity.alert.hide()
                     }
 
@@ -139,6 +141,7 @@ class ChemistryFragment : Fragment(), ChemistryListener {
                 })
             }
         } else {
+            requireActivity().window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
             val bundle = Bundle()
             bundle.putSerializable("question_int", finalResponseInt)
             bundle.putSerializable("question", finalResponse)
@@ -156,31 +159,39 @@ class ChemistryFragment : Fragment(), ChemistryListener {
         id: TextView,
         holder: ViewHolder
     ) {
-        firstEnters = true
-        id.isEnabled = true
-        if (answer!!.correct == true) {
-            correctInt++
-        } else {
-            wrongInt++
-        }
-        if (counter == 16) {
-            finalResponseInt.add(ResponseModelInt(correctInt, wrongInt))
-        }
+        try {
+            requireActivity().window.setFlags(
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE
+            )
+            firstEnters = true
+            id.isEnabled = true
+            if (answer!!.correct == true) {
+                correctInt++
+            } else {
+                wrongInt++
+            }
+            if (counter == 16) {
+                finalResponseInt.add(ResponseModelInt(correctInt, wrongInt))
+            }
 
-        finalResponse.add(ResponseModel(answer.translation.toString(), answer.correct!!))
+            finalResponse.add(ResponseModel(answer.translation.toString(), answer.correct!!))
 
-        AppPreferences.isLogined = false
-        map[position] = answer.id!!
-        myAdapter.notifyDataSetChanged()
-        handler.postDelayed(Runnable { // Do something after 5s = 500ms
-            myAdapter.questionСolors(position, holder)
-            item.clear()
-            itemPosition.clear()
-            AppPreferences.isLogined = true
-            AppPreferences.numberCharacters = 0
-            counter++
-            firebaseDate(id)
-        }, 200)
+            AppPreferences.isLogined = false
+            map[position] = answer.id!!
+            myAdapter.notifyDataSetChanged()
+            handler.postDelayed(Runnable { // Do something after 5s = 500ms
+                myAdapter.questionСolors(position, holder)
+                item.clear()
+                itemPosition.clear()
+                AppPreferences.isLogined = true
+                AppPreferences.numberCharacters = 0
+                counter++
+                firebaseDate(id)
+            }, 200)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
     override fun onStart() {
