@@ -33,7 +33,6 @@ class MountainSoilsFragment : Fragment() {
         list.add(ImageResult("https://fireman.club/wp-content/uploads/2017/08/Grunt.jpg", soils_crane_en))
         list.add(ImageResult("http://www.ocenin.ru/wp-content/uploads/2017/01/654-2.jpg", soils_en))
 
-        MainActivity.alert.show()
         if (list.size != 0){
             initGlide()
         }
@@ -50,7 +49,7 @@ class MountainSoilsFragment : Fragment() {
                     }
 
                     override fun onResourceReady(resource: Drawable?, model: Any?, target: Target<Drawable?>?, dataSource: com.bumptech.glide.load.DataSource?, isFirstResource: Boolean): Boolean {
-                        if (i == list.size){
+                        if (i <= list.size){
                             MainActivity.alert.hide()
                         }
                         return false
@@ -58,5 +57,10 @@ class MountainSoilsFragment : Fragment() {
                 })
                 .into(list[i -1].imageView);
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        MainActivity.alert.show()
     }
 }
