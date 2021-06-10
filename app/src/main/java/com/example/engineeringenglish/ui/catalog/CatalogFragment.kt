@@ -52,7 +52,7 @@ class CatalogFragment : Fragment(), CatalogListener{
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_justice), "Измерения"))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_knowledge), "Материалы"))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_engineering), "Терминология"))
-        list.add(CatalogModel(resources.getDrawable(R.drawable.ic_resource_extraction), "Горное дело"))
+        list.add(CatalogModel(resources.getDrawable(R.drawable.ic_mining_industry), "Горное дело"))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_programming), "IT разработка"))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_repair), "Компьютер"))
         list.add(CatalogModel(resources.getDrawable(R.drawable.ic_six), "Почва"))

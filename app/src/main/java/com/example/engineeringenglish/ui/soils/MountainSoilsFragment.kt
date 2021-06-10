@@ -1,4 +1,4 @@
-package com.example.engineeringenglish.ui.soils
+      package com.example.engineeringenglish.ui.soils
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -34,6 +34,7 @@ class MountainSoilsFragment : Fragment() {
         list.add(ImageResult("http://www.ocenin.ru/wp-content/uploads/2017/01/654-2.jpg", soils_en))
 
         if (list.size != 0){
+            MainActivity.alert.show()
             initGlide()
         }
     }
@@ -57,10 +58,5 @@ class MountainSoilsFragment : Fragment() {
                 })
                 .into(list[i -1].imageView);
         }
-    }
-
-    override fun onStart() {
-        super.onStart()
-        MainActivity.alert.show()
     }
 }
